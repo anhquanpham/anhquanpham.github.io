@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: /api
+Allow: /api/sitemap.xml
 Sitemap: https://github.com/anhquanpham/anhquanpham.github.io/tree/main/public/sitemap.xml
