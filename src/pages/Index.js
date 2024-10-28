@@ -6,7 +6,7 @@ import Main from '../layouts/Main';
 const Index = () => (
   <Main
     description={
-      "Anh-Quan (Bill) Pham's personal website. MS Robotics at the University of Pennsylvania."
+      "Anh-Quan (Bill) Pham's personal website. MS Robotics at the University of Pennsylvania (UPenn)."
       + 'Email: phamanhquanbill@gmail.com'
     }
   >
