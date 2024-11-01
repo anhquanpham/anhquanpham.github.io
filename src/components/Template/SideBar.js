@@ -22,13 +22,6 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        {/* Hi, I&apos;m Anh-Quan, but just call me Quan. I am a{' '}
-        <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC
-        alumnus, and the co-founder and CTO of{' '}
-        <a href="https://promptfoo.dev">Promptfoo</a>. Previously, I
-        was VP of Engineering at <a href="https://usesmileid.com">SmileID</a>,
-        co-founder and CTO of <a href="https://arthena.com">Arthena</a>, and
-        co-founded <a href="https://matroid.com">Matroid</a>. */}
         Hi! I&apos;m Quan, a first-year Robotics Master&apos;s student at the{' '} <a href="https://www.grasp.upenn.edu/">GRASP Lab</a>,{' '} <a href="https://www.upenn.edu/">University of Pennsylvania</a>.  Previously, I studied{' '}
         <a href="https://cecs.vinuni.edu.vn/">ECE</a>{' '} at {' '}
         <a href="https://vinuni.edu.vn/">VinUniversity</a>, and completed my research internship as a {' '}<a href="https://www.a-star.edu.sg/Scholarships/for-undergraduate-studies/singapore-international-pre-graduate-award-sipga">SIPGA</a> scholar
