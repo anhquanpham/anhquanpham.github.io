@@ -1,6 +1,15 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'Pick & Place Robot Arm',
+    subtitle: 'MEAM 5200: Introduction to Robotics Final Project',
+    link: '/projects/pick-place-robot-arm',
+    image: '/images/projects/robot-arm/robot-arm.gif',
+    date: '2024-12-11',
+    desc:
+      'Designed and implemented planning and control algorithms for the Franka Emika Panda 7-DOF robot to efficiently pick, place, and stack static and dynamic blocks for maximum height. Utilizing ROS and Gazebo for simulation.',
+  },
+  {
     title: 'Face Verification with C++ & OpenCV',
     subtitle: 'Computer Systems Programming Final Project',
     link: 'https://github.com/anhquanpham/Face-Verification-C-',
