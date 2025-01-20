@@ -56,9 +56,8 @@ const PickPlaceRobotArm = () => (
           dynamic blocks to form stable towers of maximum height.
           Leveraging ROS for robot control and Gazebo for
           simulation <a href="#ref1">[1]</a>, the project demonstrated precise
-          performance in both controlled and dynamic
-          scenarios, showcasing the potential of robotic systems
-          in industrial applications.
+          performance in both static and dynamic
+          manipulation, showcasing the potential of the robotic system.
         </p>
       </section>
       <section>
