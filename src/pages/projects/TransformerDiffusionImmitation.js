@@ -118,51 +118,6 @@ const TransformerDiffusionImmitation = () => (
       <section>
         <h3>Background</h3>
         <p>
-          Robotic manipulation tasks require handling complex action spaces,
-          generalizing across diverse scenarios and long trajectories, and
-          maintaining temporal consistency. Traditional frameworks often fall
-          short in addressing these challenges, limiting their applicability
-          in real-world scenarios. Advancing robotics in fields like automation
-          and assistive technologies requires overcoming these limitations.
-          This project enhances the Diffusion Policy framework with Transformer-based
-          observation and action encoders, enabling the robot to learn and execute
-          complex tasks with improved stability and adaptability,
-          making them more practical for real-world applications.
-        </p>
-        <p />
-        <p>
-          The key contributions are as follows:
-        </p>
-        <ul>
-          <li>
-            <strong>Scalable Architectural Improvements:
-            </strong>
-            Introduced
-            transformer-based observation and action encoders to capture both
-            short and long-term dependencies, effectively handling complex
-            manipulation scenarios.
-          </li>
-          <li><strong>Consistent Training Convergence:</strong> Achieved smooth
-            and stable training across 100 epochs, with steadily decreasing
-            training losses, showcasing the robustness of the improved framework.
-          </li>
-          <li><strong>Improved Task Success in PushTEnv:</strong> Enhanced
-            task performance by reducing the number of steps needed for completion
-            and achieving higher task success rates in the custom simulation environment.
-          </li>
-          <li><strong>Optimized Data Pipelines:</strong> Developed robust data normalization,
-            sequence sampling, and padding techniques to ensure compatibility with transformer
-            architectures and support stable training.
-          </li>
-          <li><strong>Enhanced Simulation Environment:</strong> Upgraded the PushTEnv
-            environment with higher render resolution, offering an 11x improvement in visual
-            clarity to facilitate better result observation.
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h3>Methodology</h3>
-        <p>
           Chi et al. (2023) <a href="#ref1">[1]</a> introduced the Diffusion Policy framework,
           which extends Denoising Diffusion Probabilistic Models (DDPMs)
           to visuomotor policy learning. This framework models actions
@@ -180,8 +135,11 @@ const TransformerDiffusionImmitation = () => (
           </figcaption>
         </div>
         <p />
+      </section>
+      <section>
+        <h3>Methodology</h3>
         <p>
-          To address these challenges, this project enhances the Diffusion
+          To address the above challenges, this project enhances the Diffusion
           Policy framework by integrating transformer-based observation and
           action encoders. The self-attention mechanism of transformers
           enables the modeling of both short- and long-term temporal
