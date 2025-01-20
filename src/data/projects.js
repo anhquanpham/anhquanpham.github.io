@@ -1,6 +1,15 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'Transformer-Based Visuomotor Diffusion Imitation Learning for Robot Manipulation',
+    subtitle: 'Transformer Diffusion Policy for Immitation Learning',
+    link: '/projects/transformer-diffusion-immitation',
+    image: '/images/projects/transformer-diffusion/transformer-diffusion.gif',
+    date: '2024-12-15',
+    desc:
+      'Enhanced diffusion policy frameworks for robotic manipulation tasks by introducing transformer-based observation and action encoders to capture relationships across the whole trajectory. The algorithm is evaluated in a PyMunk-based PushT simulation environment, with comprehensive evaluation metrics.',
+  },
+  {
     title: 'Pick & Place Robot Arm',
     subtitle: 'MEAM 5200: Introduction to Robotics Final Project',
     link: '/projects/pick-place-robot-arm',
