@@ -26,14 +26,29 @@ const sections = {
 const Resume = () => (
   <Main
     title="Resume"
-    description="Anh-Quan Pham's Resume. Smile Identity, Arthena, Matroid, YC, Skeptical Investments, Stanford ICME, Planet, and Facebook."
+    description="Anh-Quan Pham's Resume."
   >
     <article className="post" id="resume">
       <header>
-        <div className="title">
-          <h2>
+        <div className="title" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+          <h2 style={{ margin: 0 }}>
             <Link to="resume">Resume</Link>
           </h2>
+          <a href="https://drive.google.com/file/d/11tyuVUQtAkpt8VsQfA_KSCexRhEDkwcV/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <button
+              type="button"
+              style={{
+                padding: '0px 10px',
+                backgroundColor: '#001F3F',
+                color: 'white',
+                border: 'none',
+                fontSize: '12px',
+                cursor: 'pointer',
+              }}
+            >
+              Download PDF
+            </button>
+          </a>
           <div className="link-container">
             {Object.keys(sections).map((sec) => (
               <h4 key={sec}>
