@@ -34,6 +34,13 @@ const Resume = () => (
           <h2 style={{ margin: 0 }}>
             <Link to="resume">Resume</Link>
           </h2>
+          <div className="link-container">
+            {Object.keys(sections).map((sec) => (
+              <h4 key={sec}>
+                <a href={`#${sec.toLowerCase()}`}>{sec}</a>
+              </h4>
+            ))}
+          </div>
           <a href="https://drive.google.com/file/d/11tyuVUQtAkpt8VsQfA_KSCexRhEDkwcV/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             <button
               type="button"
@@ -49,13 +56,6 @@ const Resume = () => (
               Download PDF
             </button>
           </a>
-          <div className="link-container">
-            {Object.keys(sections).map((sec) => (
-              <h4 key={sec}>
-                <a href={`#${sec.toLowerCase()}`}>{sec}</a>
-              </h4>
-            ))}
-          </div>
         </div>
       </header>
       {Object.entries(sections).map(([name, Section]) => (
