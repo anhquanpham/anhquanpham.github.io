@@ -19,6 +19,15 @@ const data = [
       'Designed and implemented planning and control algorithms for the Franka Emika Panda 7-DOF robot to efficiently pick, place, and stack static and dynamic blocks for maximum height. Utilizing ROS and Gazebo for simulation.',
   },
   {
+    title: '3D scene reconstruction and novel view rendering with NeRF (Neural Radiance Fields)',
+    subtitle: 'Detailed overview of implementing 3D scene reconstruction using NeRF architecture and volumetric rendering techniques.',
+    link: '/projects/nerf',
+    image: '/images/projects/nerf/nerf-fast.gif',
+    date: '2024-12-22',
+    desc:
+      'This project implements a NeRF-based framework that represents a 3D scene in a compact way and render novel views given a number of 2D views of the same static scene. It integrates positional encoding, stratified sampling, and volumetric rendering.',
+  },
+  {
     title: 'Face Verification with C++ & OpenCV',
     subtitle: 'Computer Systems Programming Final Project',
     link: 'https://github.com/anhquanpham/Face-Verification-C-',

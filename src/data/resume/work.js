@@ -13,6 +13,17 @@
  */
 const work = [
   {
+    name: 'Lifelong Machine Learning Research Group, GRASP Lab, University of Pennsylvania',
+    position: 'Graduate Research Assistant',
+    url: 'https://lifelongml.seas.upenn.edu/',
+    startDate: '2025-01-04',
+    summary: 'Working on compositional reinforcement learning for robot learning, advised by Professor Eric Eaton.',
+    highlights: [
+      'Developing novel techniques for compositional reinforcement learning for robot learning.',
+      'Conducting experiments on existing techniques.',
+    ],
+  },
+  {
     name: 'Institute for Infocomm Research (I²R)',
     position: 'Research Intern',
     url: 'https://www.a-star.edu.sg/i2r',
