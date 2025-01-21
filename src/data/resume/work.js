@@ -30,7 +30,7 @@ const work = [
     startDate: '2025-01-13',
     summary: 'Was offered the role for Spring 2025 after earning an A+ in Fall 2024.',
     highlights: [
-      ' Hold weekly office hours to support students with course material and quizzes.',
+      'Hold weekly office hours to support students with course material and quizzes.',
       'Assist in grading and logistics for assignments and exams.',
       'Collaborate with the professor and TAs to enhance student engagement and course delivery.',
     ],
