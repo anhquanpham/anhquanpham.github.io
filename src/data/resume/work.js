@@ -16,11 +16,23 @@ const work = [
     name: 'Lifelong Machine Learning Research Group, GRASP Lab, University of Pennsylvania',
     position: 'Graduate Research Assistant',
     url: 'https://lifelongml.seas.upenn.edu/',
-    startDate: '2025-01-04',
+    startDate: '2025-01-14',
     summary: 'Working on compositional reinforcement learning for robot learning, advised by Professor Eric Eaton.',
     highlights: [
       'Developing novel techniques for compositional reinforcement learning for robot learning.',
       'Conducting experiments on existing techniques.',
+    ],
+  },
+  {
+    name: 'Department of Computer and Information Science (CIS), University of Pennsylvania',
+    position: 'Teaching Assistant, CIS 5800 Machine Perception',
+
+    startDate: '2025-01-13',
+    summary: 'Was offered the role for Spring 2025 after earning an A+ in Fall 2024.',
+    highlights: [
+      ' Hold weekly office hours to support students with course material and quizzes.',
+      'Assist in grading and logistics for assignments and exams.',
+      'Collaborate with the professor and TAs to enhance student engagement and course delivery.',
     ],
   },
   {

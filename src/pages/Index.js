@@ -29,6 +29,21 @@ const Index = () => (
         view <Link to="/stats">site statistics</Link>, or{' '}
         <Link to="/contact">contact</Link> me.
       </p>
+      <section>
+        <h3>News & Updates</h3>
+        <p>
+          <strong>Jan 2025:</strong> Excited to share that I just joined Lifelong Machine Learning
+          Research Group as a Graduate Research Assistant!
+        </p>
+        <p>
+          <strong>Jan 2025:</strong> I will be working as a TA for CIS 5800 Machine
+          Perception (Spring 2025) after earning an A+ in Fall 2024!
+        </p>
+        <p>
+          <strong>Jan 2025:</strong> I just updated my latest {' '}
+          <Link to="/projects">Projects</Link>. Go check them out!
+        </p>
+      </section>
     </article>
   </Main>
 );

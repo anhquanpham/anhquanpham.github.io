@@ -33,7 +33,7 @@ I rarely have free time, but when I do, I enjoy reading about tech entrepreneurs
 and analyzing football (soccer) tactics. I also love playing football and making music. 
 In college, I formed a band with my dorm mates, playing Pop, Rock, and Ballads. 
 I primarily play the drums, but I also occasionally pick up the guitar and sing as well. 
-[HERE](https://youtu.be/tPJaWawMwnk) was our debut performance back in summer 2023.
+[HERE](https://www.youtube.com/watch?v=373mu6j9DU0) was our debut performance back in summer 2023.
 <br>
 <br>
 In Vietnam, people typically refer to each other by their middle and first names, 
