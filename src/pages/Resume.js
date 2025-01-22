@@ -26,13 +26,13 @@ const sections = {
 const Resume = () => (
   <Main
     title="Resume"
-    description="Anh-Quan Pham's Resume."
+    description="Anh-Quan Pham's Resume"
   >
     <article className="post" id="resume">
       <header>
-        <div className="title" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-          <h2 style={{ margin: 0 }}>
-            <Link to="resume">Resume</Link>
+        <div className="title">
+          <h2>
+            <Link to="#resume">Resume</Link>
           </h2>
           <div className="link-container">
             {Object.keys(sections).map((sec) => (
@@ -40,22 +40,28 @@ const Resume = () => (
                 <a href={`#${sec.toLowerCase()}`}>{sec}</a>
               </h4>
             ))}
+            <h4>
+              <a
+                href="https://drive.google.com/file/d/11tyuVUQtAkpt8VsQfA_KSCexRhEDkwcV/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: 'inline-block',
+                  padding: '10px 15px',
+                  backgroundColor: '#001F3F',
+                  color: 'white',
+                  border: '2px solid #001F3F',
+                  borderRadius: '100px',
+                  textDecoration: 'none',
+                  fontSize: '11px',
+                  textAlign: 'center',
+                  boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', // Adds a subtle shadow
+                }}
+              >
+                Download 1-Page Resume
+              </a>
+            </h4>
           </div>
-          <a href="https://drive.google.com/file/d/11tyuVUQtAkpt8VsQfA_KSCexRhEDkwcV/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-            <button
-              type="button"
-              style={{
-                padding: '0px 10px',
-                backgroundColor: '#001F3F',
-                color: 'white',
-                border: 'none',
-                fontSize: '12px',
-                cursor: 'pointer',
-              }}
-            >
-              Download PDF
-            </button>
-          </a>
         </div>
       </header>
       {Object.entries(sections).map(([name, Section]) => (
