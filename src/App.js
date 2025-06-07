@@ -12,6 +12,7 @@ const NotFound = lazy(() => import('./pages/NotFound'));
 const Projects = lazy(() => import('./pages/Projects'));
 const PickPlaceRobotArm = lazy(() => import('./pages/projects/PickPlaceRobotArm'));
 const NERF = lazy(() => import('./pages/projects/NERF'));
+const SBAMP = lazy(() => import('./pages/projects/SBAMP'));
 const TransformerDiffusionImmitation = lazy(() => import('./pages/projects/TransformerDiffusionImmitation'));
 const Resume = lazy(() => import('./pages/Resume'));
 const Stats = lazy(() => import('./pages/Stats'));
@@ -23,9 +24,10 @@ const App = () => (
         <Route path="/" element={<Index />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/projects/sbamp" element={<SBAMP />} />
         <Route path="/projects/nerf" element={<NERF />} />
         <Route path="/projects/pick-place-robot-arm" element={<PickPlaceRobotArm />} />
-        <Route path="/projects/transformer-diffusion-immitation" element={<TransformerDiffusionImmitation />} />
+        <Route path="/projects/transformer-diffusion-imitation" element={<TransformerDiffusionImmitation />} />
         <Route path="/stats" element={<Stats />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />

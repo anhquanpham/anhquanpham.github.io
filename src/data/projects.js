@@ -1,9 +1,18 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'SBAMP: Sampling Based Adaptive Motion Planning',
+    subtitle: 'Sampling Based Adaptive Motion Planning',
+    link: '/projects/sbamp',
+    image: '/images/projects/sbamp/SBAMP.gif',
+    date: '2025-05-05',
+    desc:
+      'Developed SBAMP, a bi-level motion planning framework that combines RRT* for global path planning with an online SEDS-based controller for real-time local trajectory adaptation. The method avoids any offline training data by fitting stable dynamical systems on-the-fly and ensures global Lyapunov stability during disturbances and replanning. Implemented in ROS2 with CVXPY-based optimization, integrated with the F1/10 RoboRacer platform using real-time LIDAR-based perception and Ackermann control.',
+  },
+  {
     title: 'Transformer-Based Visuomotor Diffusion Imitation Learning for Robot Manipulation',
     subtitle: 'Transformer Diffusion Policy for Immitation Learning',
-    link: '/projects/transformer-diffusion-immitation',
+    link: '/projects/transformer-diffusion-imitation',
     image: '/images/projects/transformer-diffusion/transformer-diffusion.gif',
     date: '2024-12-15',
     desc:

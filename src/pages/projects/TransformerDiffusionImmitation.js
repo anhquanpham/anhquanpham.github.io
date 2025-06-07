@@ -91,8 +91,7 @@ const TransformerDiffusionImmitation = () => (
         <ul>
           <li>
             <strong>Scalable Architectural Improvements:
-            </strong>
-            Introduced
+            </strong> Introduced
             transformer-based observation and action encoders to capture both
             short and long-term dependencies, effectively handling complex
             manipulation scenarios.
