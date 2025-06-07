@@ -42,7 +42,7 @@ const SBAMP = () => (
           allowFullScreen
         />
       </div>
-      <p style={{ marginTop: '20px', fontSize: '16px', textAlign: 'center' }}>
+      <p style={{ marginTop: '20px', textAlign: 'left' }}>
         For the simulation and hardware implementation instructions, please
         refer to the GitHub link provided above.
       </p>
