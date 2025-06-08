@@ -35,7 +35,7 @@ const SBAMP = () => (
       </header>
       <div className="video-container" id="video-start">
         <iframe
-          src="https://youtu.be/mtq3qeJFjX0?si=DWQqIfnddieMYkBb"
+          src="https://www.youtube.com/embed/mtq3qeJFjX0"
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
