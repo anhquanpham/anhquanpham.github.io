@@ -32,8 +32,11 @@ const Index = () => (
       <section>
         <h3>News & Updates</h3>
         <p>
-          <strong>Jan 2025:</strong> Excited to share that I just joined Lifelong Machine Learning
-          Research Group as a Graduate Research Assistant!
+          <strong>Jan 2025:</strong> Excited to share that I&apos;ve started as a Graduate
+          Research Assistant
+          at the GRASP Lab,
+          University of Pennsylvania, working on various aspects of Reinforcement
+          Learning for Robotics!
         </p>
         <p>
           <strong>Jan 2025:</strong> I will be working as a TA for CIS 5800 Machine

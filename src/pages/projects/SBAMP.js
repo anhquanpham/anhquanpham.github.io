@@ -42,6 +42,9 @@ const SBAMP = () => (
           allowFullScreen
         />
       </div>
+      <p />
+      <p />
+      <p />
       <p style={{ marginTop: '20px', textAlign: 'left' }}>
         For the simulation and hardware implementation instructions, please
         refer to the GitHub link provided above.
@@ -51,7 +54,7 @@ const SBAMP = () => (
         <iframe
           src="/pdf/SBAMP-poster.pdf" // Replace with your actual PDF path
           width="100%"
-          height="1300px"
+          height="800px"
           style={{ border: 'none' }}
           title="SBAMP PDF Document"
         />
@@ -61,7 +64,7 @@ const SBAMP = () => (
         <iframe
           src="/pdf/SBAMP-paper.pdf" // Replace with your actual PDF path
           width="100%"
-          height="1100px"
+          height="800px"
           style={{ border: 'none' }}
           title="SBAMP PDF Document"
         />

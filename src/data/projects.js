@@ -10,6 +10,15 @@ const data = [
       'Developed SBAMP, a bi-level motion planning framework that combines RRT* for global path planning with an online SEDS-based controller for real-time local trajectory adaptation. The method avoids any offline training data by fitting stable dynamical systems on-the-fly and ensures global Lyapunov stability during disturbances and replanning. Implemented in ROS2 with CVXPY-based optimization, integrated with the F1/10 RoboRacer platform using real-time LIDAR-based perception and Ackermann control.',
   },
   {
+    title: 'Enhanced Differentiable Multi-Sensor Kalman Filter for Cooperative 3D Tracking',
+    subtitle: 'Enhanced DMSTrack',
+    link: '/projects/cooptrack',
+    image: '/images/projects/cooptrack/cooptrack.gif',
+    date: '2025-05-05',
+    desc:
+      'Improved DMSTrack, a differentiable multi-sensor Kalman filter for 3D cooperative tracking, by modifying its learnable covariance module to enforce nonnegative uncertainty estimates. Our changes, ReLU-clamped residuals and reduced initial covariance scale, resulted in faster convergence and improved tracking performance on the V2V4Real benchmark. Implemented in PyTorch with Open3D visualization, trained end-to-end on real-world multi-vehicle LiDAR sequences using a custom differentiable Kalman filter pipeline.',
+  },
+  {
     title: 'Transformer-Based Visuomotor Diffusion Imitation Learning for Robot Manipulation',
     subtitle: 'Transformer Diffusion Policy for Immitation Learning',
     link: '/projects/transformer-diffusion-imitation',
