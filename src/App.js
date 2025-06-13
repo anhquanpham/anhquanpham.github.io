@@ -6,6 +6,7 @@ import './static/css/main.scss'; // All of our styles
 const { PUBLIC_URL } = process.env;
 
 const About = lazy(() => import('./pages/About'));
+const Academic = lazy(() => import('./pages/Academic'));
 const Contact = lazy(() => import('./pages/Contact'));
 const Index = lazy(() => import('./pages/Index'));
 const NotFound = lazy(() => import('./pages/NotFound'));
@@ -25,6 +26,7 @@ const App = () => (
         <Route path="/" element={<Index />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/academic" element={<Academic />} />
         <Route path="/projects/sbamp" element={<SBAMP />} />
         <Route path="/projects/cooptrack" element={<CoopTrack />} />
         <Route path="/projects/nerf" element={<NERF />} />

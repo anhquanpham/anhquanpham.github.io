@@ -32,6 +32,15 @@ const Index = () => (
       <section>
         <h3>News & Updates</h3>
         <p>
+          <strong>June 2025:</strong> I just updated my {' '} <Link to="/resume">Resume</Link>,
+          added new <Link to="/projects">Projects</Link>, and an <Link to="/academic">Academic</Link> page
+          for research and teaching activities!
+        </p>
+        <p>
+          <strong>May 2025:</strong> I will serve as President of the Penn Robotics
+          Entrepreneurs Club (PREC) during the 2025–2026 academic year!
+        </p>
+        <p>
           <strong>Jan 2025:</strong> Excited to share that I&apos;ve started as a Graduate
           Research Assistant
           at the GRASP Lab,

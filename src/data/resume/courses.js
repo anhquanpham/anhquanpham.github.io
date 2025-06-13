@@ -1,5 +1,23 @@
 const courses = [
   {
+    title: 'Real-World Robot Learning',
+    number: 'ESE 6800/CIS 7000',
+    link: 'https://antonilo.github.io/real_world_robot_learning_sp25/',
+    university: 'University of Pennsylvania',
+  },
+  {
+    title: 'Learning and Control for Adaptive and Reactive Robots',
+    number: 'MEAM 6230',
+    link: 'https://mitpress.mit.edu/9780262046169/learning-for-adaptive-and-reactive-robot-control/',
+    university: 'University of Pennsylvania',
+  },
+  {
+    title: 'Learning in Robotics',
+    number: 'ESE 6500',
+    link: 'https://pratikac.github.io/pub/24_ese650.pdf',
+    university: 'University of Pennsylvania',
+  },
+  {
     title: 'Principles of Deep Learning',
     number: 'ESE 5460',
     link: 'https://pratikac.github.io/pub/23_ese546.pdf',

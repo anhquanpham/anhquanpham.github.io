@@ -22,7 +22,9 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi! I&apos;m Quan, a first-year Robotics Master&apos;s student at the{' '} <a href="https://www.grasp.upenn.edu/">GRASP Lab</a>,{' '} <a href="https://www.upenn.edu/">University of Pennsylvania</a> (UPenn).  Previously, I studied{' '}
+        Hi! I&apos;m Quan, a first-year Robotics Master&apos;s student at the{' '} <a href="https://www.grasp.upenn.edu/">GRASP Lab</a>,{' '} <a href="https://www.upenn.edu/">University of Pennsylvania</a> (UPenn). I&apos;m currently the President
+        of Penn Robotics Entrepreneurs Club (PREC).
+        Previously, I studied{' '}
         <a href="https://cecs.vinuni.edu.vn/">ECE</a>{' '} at {' '}
         <a href="https://vinuni.edu.vn/">VinUniversity</a>, and completed my research internship as a {' '}<a href="https://www.a-star.edu.sg/Scholarships/for-undergraduate-studies/singapore-international-pre-graduate-award-sipga">SIPGA</a> scholar
         at the{' '}

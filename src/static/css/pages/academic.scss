@@ -1,0 +1,236 @@
+// Academic page styles
+
+.academic {
+  section {
+    margin-bottom: 3em;
+    
+    h3 {
+      border-bottom: 2px solid #e1e1e1;
+      padding-bottom: 0.5em;
+      margin-bottom: 1.5em;
+      color: #fff;
+      font-size: 1.5em;
+    }
+  }
+
+  .research-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+  .research-item {
+    display: flex;
+    align-items: flex-start;
+    background: #f9f9f9;
+    border-left: 4px solid #4c93ce;
+    border-radius: 4px;
+    margin-bottom: 2em;
+    padding: 1.5em;
+  }
+  .research-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.5em;
+  }
+  .research-image img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 4px;
+    object-fit: contain;
+  }
+  .research-content {
+    flex: 1 1 0%;
+  }
+  .research-content h4 {
+    margin: 0 0 0.5em 0;
+    color: #333;
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+  .research-subtitle {
+    color: #888;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+  }
+  .research-date {
+    color: #666;
+    font-size: 0.95em;
+    margin-bottom: 0.5em;
+  }
+  .research-desc {
+    color: #555;
+    margin-top: 0.5em;
+  }
+
+  .courses-container {
+    .course-item {
+      margin-bottom: 2em;
+      padding: 1.5em;
+      background: #f9f9f9;
+      border-left: 4px solid #4c93ce;
+      border-radius: 4px;
+      
+      h4 {
+        margin: 0 0 0.5em 0;
+        color: #333;
+        font-size: 1.2em;
+        font-weight: 600;
+      }
+      
+      .course-term {
+        color: #333;
+        font-style: italic;
+        margin: 0.25em 0;
+        font-size: 0.9em;
+      }
+      
+      .course-role {
+        color: #333;
+        font-weight: 500;
+        margin: 0.25em 0;
+        font-size: 0.9em;
+      }
+      
+      .course-description {
+        margin: 0.75em 0 0 0;
+        line-height: 1.6;
+        color: #555;
+      }
+    }
+  }
+
+  .talks-container {
+    .talk-item {
+      margin-bottom: 2em;
+      padding: 1.5em;
+      background: #f9f9f9;
+      border-left: 4px solid #e74c3c;
+      border-radius: 4px;
+      
+      h4 {
+        margin: 0 0 0.5em 0;
+        color: #333;
+        font-size: 1.2em;
+        font-weight: 600;
+      }
+      
+      .talk-venue {
+        color: #666;
+        font-weight: 500;
+        margin: 0.25em 0;
+        font-size: 0.9em;
+      }
+      
+      .talk-date {
+        color: #e74c3c;
+        font-style: italic;
+        margin: 0.25em 0;
+        font-size: 0.9em;
+      }
+      
+      .talk-description {
+        margin: 0.75em 0 0 0;
+        line-height: 1.6;
+        color: #555;
+      }
+    }
+  }
+}
+
+// Responsive design
+@media screen and (max-width: 736px) {
+  .academic {
+    .research-item {
+      flex-direction: column;
+      padding: 1em;
+    }
+    .research-image {
+      margin-right: 0;
+      margin-bottom: 1em;
+      justify-content: flex-start;
+    }
+    .courses-container,
+    .talks-container {
+      .course-item,
+      .talk-item {
+        padding: 1em;
+        margin-bottom: 1.5em;
+        
+        h4 {
+          font-size: 1.1em;
+        }
+      }
+    }
+  }
+}
+
+.course-description,
+.talk-description {
+  color: #555;
+} 
+
+.academic .course-term,
+.academic .course-role {
+  color: #555 !important;
+}
+
+.talk-venue,
+.talk-date {
+  color: #555 !important;
+}
+
+.course-role-term {
+  color: #555;
+  font-weight: 500;
+  margin: 0.25em 0;
+  font-size: 0.95em;
+}
+
+.course-website-btn {
+  display: inline-block;
+  margin-top: 0.75em;
+  padding: 10px 15px;
+  background: #001F3F;
+  color: #fff !important;
+  border: 2px solid #001F3F;
+  border-radius: 100px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background 0.2s, color 0.2s;
+}
+.course-website-btn:hover {
+  background: #001F3F;
+  color: #FF0000 !important;
+  border: 2px solid #001F3F;
+}
+
+.research-authors {
+  color: #888 !important;
+  font-weight: 500;
+  margin-bottom: 0.5em;
+  font-size: 1em;
+}
+
+.research-authors b {
+  color: #888;
+  font-weight: 700;
+}
+
+.research-award {
+  color: #d4af37;
+  font-style: italic;
+  margin-bottom: 0.5em;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.research-btns {
+  margin-top: 1em;
+  text-align: left;
+  width: 100%;
+}

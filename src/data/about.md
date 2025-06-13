@@ -20,6 +20,7 @@ they are versatile general-purpose models or specialized DIY robots designed for
 - [The Independent Learning Drive of Pham Anh Quan](https://baocantho.com.vn/tinh-than-tu-hoc-cua-pham-anh-quan-a99929.html) (Can Tho Online Newspaper, 2018)
 
 # Selected Awards
+- <b> Professional Advisor</b>, Mid-Atlantic Capital Conference, Philadelphia Alliance for Capital and Technologies (2024)
 - <b>Singapore International Pre-Graduate Award</b>, A*STAR Singapore (2024)
 - <b>Full scholarship</b>, Cornell University’s Entrepreneurship Immersion Program (2024)
 - <b>Champion of Asia Pacific region, Top 20 globally</b>, Huawei Tech4Good 2023 Startup Competition (2023)

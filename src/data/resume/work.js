@@ -17,24 +17,27 @@ const work = [
     position: 'Graduate Research Assistant',
     url: 'https://lifelongml.seas.upenn.edu/',
     startDate: '2025-01-14',
-    summary: 'Working on compositional reinforcement learning for robot learning, advised by Professor Eric Eaton.',
+    summary: 'Working on Reinforcement Learning and Robot Learning, advised by Professors Eric Eaton and Dinesh Jayaraman.',
     highlights: [
-      'Developing novel techniques for compositional reinforcement learning for robot learning.',
-      'Conducting experiments on existing techniques.',
+      'Designed compositional and conditional diffusion models, achieving zero-shot high quality data generation for unseen tasks.',
+      'Improved runtime by 50% by refactoring PyTorch implementation and optimizing training & data generation pipelines on SLURM and SSH.',
+      'Trained KUKA IIWA, Franka-Emika Panda, Kinova Jaco & Gen3 robotic simulation with Implicit Q-Learning & Behavioral Cloning (TD3+BC).',
+      'Implemented custom reinforcement learning environments and teleoperation interfaces for Franka Emika Panda manipulation tasks, enabling RL training with language-model-based reward shaping.',
+      'Deploying real-world RL for dexterous manipulation on the Franka-Emika Panda arm, focusing on Sim2Real transfer, zero-shot generalization of skills, LLM for reward shaping  and VLM-guided task decomposition.',
     ],
   },
-  {
-    name: 'Department of Computer and Information Science (CIS), University of Pennsylvania',
-    position: 'Teaching Assistant, CIS 5800 Machine Perception',
+  // {
+  //   name: 'Department of Computer and Information Science (CIS), University of Pennsylvania',
+  //   position: 'Teaching Assistant, CIS 5800 Machine Perception',
 
-    startDate: '2025-01-13',
-    summary: 'Was offered the role for Spring 2025 after earning an A+ in Fall 2024.',
-    highlights: [
-      'Hold weekly office hours to support students with course material and quizzes.',
-      'Assist in grading and logistics for assignments and exams.',
-      'Collaborate with the professor and TAs to enhance student engagement and course delivery.',
-    ],
-  },
+  //   startDate: '2025-01-13',
+  //   summary: 'Was offered the role for Spring 2025 after earning an A+ in Fall 2024.',
+  //   highlights: [
+  //     'Hold weekly office hours to support students with course material and quizzes.',
+  //     'Assist in grading and logistics for assignments and exams.',
+  //     'Collaborate with the professor and TAs to enhance course delivery.',
+  //   ],
+  // },
   {
     name: 'Institute for Infocomm Research (I²R)',
     position: 'Research Intern',
@@ -43,11 +46,10 @@ const work = [
     endDate: '2024-07-31',
     summary: "The student worked independently on the research project 'Interpretable Reinforcement Learning', with Dr. Senthilnath Jayavelu as direct advisor and supervisor.",
     highlights: [
-      'Received the Singapore International Pre-Graduate Award, Singapore Agency for Science, Technology and Research.',
-      'Implemented advanced RL algorithms like PPO, SAC & Q-Learning for real-world robotic environments in OpenAI Gym and MuJoCo.',
-      'Optimized CUDA-powered models in Pytorch, reducing training times by 40% while boosting convergence rates by 15%.',
-      'Conducted literature review on latent representation and symbolic reinforcement learning.',
-      'Proposed a symbolic interpretable RL method for visual environments with event-based camera input.',
+      'Investigated 60+ papers on latent representation and symbolic methods in interpretable reinforcement learning (RL).',
+      'Optimized RL algorithms (Q-Learning, SARSA, REINFORCE, PPO) in Gymnasium, Mujoco & Atari, improving task success rates by 20–30%.',
+      'Integrated RL with LSTM/CNN/VAE and optimized PyTorch & CUDA on GPU, reducing policy variance by 20% & training time by 40%.',
+      'Created a symbolic RL framework for visual environments, enhancing decision-making transparency & reducing processing errors by 20%.',
     ],
   },
   {
