@@ -1,15 +1,18 @@
 # Intro
 
-I am currently a first-year master's student in Robotics at the University of Pennsylvania, 
-with a keen interest in Physical AI, where machine learning intersects with robotics. 
-My goal is to develop intelligent and resilient robotic systems that 
-possess enhanced capabilities and performance to assist humans in safety-critical environments. 
-I am particularly focused on creating efficient methods that enable robots to learn from 
-privileged multimodal data, thereby improving their generalization abilities to execute complex tasks effectively, 
-from simulations to real-world applications. 
-I believe that advancing generalized robotic modules will simplify the creation of intelligent 
-physical agents, making it increasingly accessible for individuals to build their own robots—whether 
-they are versatile general-purpose models or specialized DIY robots designed for specific tasks.
+I am a second-year master's student in Robotics at the University of Pennsylvania, where my research centers on reinforcement learning (RL) as the foundation of Physical AI. I use RL to study how agents explore, adapt, and continuously improve their actions in the real world. My goal is to move beyond reward maximization and benchmarks, and build agents that learn and explore efficiently in the wild, generalize across tasks, and act in ways people can understand and trust.
+<br>
+<br>
+At Penn, I work on several directions that reflect this vision:
+
+- Under the guidance of Professors [Eric Eaton](https://www.seas.upenn.edu/~eeaton/), [Jorge Méndez Méndez](https://jorge-a-mendez.github.io/), and [Dani S. Bassett](https://complexsystemsupenn.com/personal), I study compositional zero-shot data generation, where agents can tackle new tasks by recombining prior knowledge.
+
+- Supervised by Professors [Dinesh Jayaraman](https://www.seas.upenn.edu/~dineshj/) and [Osbert Bastani](https://obastani.github.io/), I develop LLM-guided reward design, conduct large-scale RL training for dexterous tool use with the Franka arm, and work on articulated simulation alignment with real-world physics.
+
+- I also learn a lot from the mentorship of [Marcel Hussing](https://marcelhussing.github.io/), who focuses on stable and reliable RL, and [Junyao Shi](https://junyaoshi.github.io/), who brings internet-scale data and foundation models into robotics. Their guidance reflects my vision of reliable and scalable Reinforcement Learning as the driver of continuous improvement and sim-to-real transfer, supported by developments in foundation models to leverage internet data for high-level world understanding.
+
+Before Penn, I studied interpretable reinforcement learning at A*STAR Singapore under [Dr. Senthilnath Jayavelu](https://sites.google.com/site/jsenthilnath/), focusing on symbolic policies and latent representations to improve transparency in decision-making. As an undergraduate at [VinUniversity](https://vinuni.edu.vn/) with Professor [Van-Dinh Nguyen](https://vinuni.edu.vn/people/nguyen-van-dinh-phd/), I applied RL to next-generation telecommunication networks, exploring resource allocation and network slicing, and completed my thesis on adaptive robotic parameter optimization using RL. As an engineering lead intern at Huawei Vietnam, I applied machine learning to IoT systems, leading a project on sleep-stage classification and representing Vietnam at the Asia-Pacific Seeds for the Future Summit.
+
 
 # Selected Media coverage
 

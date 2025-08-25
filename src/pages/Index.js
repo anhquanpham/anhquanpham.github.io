@@ -29,6 +29,33 @@ const Index = () => (
         view <Link to="/stats">site statistics</Link>, or{' '}
         <Link to="/contact">contact</Link> me.
       </p>
+      <p>
+        I am a second-year master&apos;s student in Robotics at the University of
+        Pennsylvania, where
+        my research centers on reinforcement learning (RL) as the foundation of Physical AI.
+        I use RL to study how agents explore, adapt, and continuously
+        improve their actions in the real world.
+        My goal is to move beyond reward maximization and benchmarks, and build agents that learn
+        and explore efficiently in the wild, generalize across tasks, and act in
+        ways people can understand and trust.
+      </p>
+      <p>
+        At Penn, I work on several directions that reflect this vision:
+      </p>
+      <ul>
+        <li>
+          Under the guidance of Professors <a href="https://www.seas.upenn.edu/~eeaton/" target="_blank" rel="noopener noreferrer">Eric Eaton</a>, <a href="https://jorge-a-mendez.github.io/" target="_blank" rel="noopener noreferrer">Jorge Méndez Méndez</a>, and <a href="https://complexsystemsupenn.com/personal" target="_blank" rel="noopener noreferrer">Dani S. Bassett</a>, I study compositional zero-shot data generation, where agents can tackle new tasks by recombining prior knowledge.
+        </li>
+        <li>
+          Supervised by Professors <a href="https://www.seas.upenn.edu/~dineshj/" target="_blank" rel="noopener noreferrer">Dinesh Jayaraman</a> and <a href="https://obastani.github.io/" target="_blank" rel="noopener noreferrer">Osbert Bastani</a>, I develop LLM-guided reward design, conduct large-scale RL training for dexterous tool use with the Franka arm, and work on articulated simulation alignment with real-world physics.
+        </li>
+        <li>
+          I also learn a lot from the mentorship of <a href="https://marcelhussing.github.io/" target="_blank" rel="noopener noreferrer">Marcel Hussing</a>, who focuses on stable and reliable RL, and <a href="https://junyaoshi.github.io/" target="_blank" rel="noopener noreferrer">Junyao Shi</a>, who brings internet-scale data and foundation models into robotics. Their guidance reflects my vision of reliable and scalable Reinforcement Learning as the driver of continuous improvement and sim-to-real transfer, supported by developments in foundation models to leverage internet data for high-level world understanding.
+        </li>
+      </ul>
+      <p>
+        Before Penn, I studied interpretable reinforcement learning at A*STAR Singapore under <a href="https://sites.google.com/site/jsenthilnath/" target="_blank" rel="noopener noreferrer">Dr. Senthilnath Jayavelu</a>, focusing on symbolic policies and latent representations to improve transparency in decision-making. As an undergraduate at <a href="https://vinuni.edu.vn/" target="_blank" rel="noopener noreferrer">VinUniversity</a> with Professor <a href="https://vinuni.edu.vn/people/nguyen-van-dinh-phd/" target="_blank" rel="noopener noreferrer">Van-Dinh Nguyen</a>, I applied RL to next-generation telecommunication networks, exploring resource allocation and network slicing, and completed my thesis on adaptive robotic parameter optimization using RL. As an engineering lead intern at Huawei Vietnam, I applied machine learning to IoT systems, leading a project on sleep-stage classification and representing Vietnam at the Asia-Pacific Seeds for the Future Summit.
+      </p>
       <section>
         <h3>News & Updates</h3>
         <p>
