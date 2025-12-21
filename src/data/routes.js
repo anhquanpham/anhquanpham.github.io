@@ -9,7 +9,7 @@ const routes = [
     path: '/about',
   },
   {
-    label: 'Resume',
+    label: 'CV',
     path: '/resume',
   },
   {
@@ -19,6 +19,10 @@ const routes = [
   {
     label: 'Academic',
     path: '/academic',
+  },
+  {
+    label: 'Misc',
+    path: '/misc',
   },
   {
     label: 'Stats',

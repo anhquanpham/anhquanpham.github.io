@@ -22,6 +22,8 @@ Education.propTypes = {
       degree: PropTypes.string,
       link: PropTypes.string,
       year: PropTypes.number,
+      thesis: PropTypes.string,
+      thesisLink: PropTypes.string,
     }),
   ),
 };

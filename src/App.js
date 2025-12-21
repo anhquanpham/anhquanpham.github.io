@@ -9,6 +9,7 @@ const About = lazy(() => import('./pages/About'));
 const Academic = lazy(() => import('./pages/Academic'));
 const Contact = lazy(() => import('./pages/Contact'));
 const Index = lazy(() => import('./pages/Index'));
+const Misc = lazy(() => import('./pages/Misc'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 const Projects = lazy(() => import('./pages/Projects'));
 const PickPlaceRobotArm = lazy(() => import('./pages/projects/PickPlaceRobotArm'));
@@ -16,6 +17,7 @@ const NERF = lazy(() => import('./pages/projects/NERF'));
 const CoopTrack = lazy(() => import('./pages/projects/CoopTrack'));
 const SBAMP = lazy(() => import('./pages/projects/SBAMP'));
 const TransformerDiffusionImmitation = lazy(() => import('./pages/projects/TransformerDiffusionImmitation'));
+const RemoteControlledDrone = lazy(() => import('./pages/projects/RemoteControlledDrone'));
 const Resume = lazy(() => import('./pages/Resume'));
 const Stats = lazy(() => import('./pages/Stats'));
 
@@ -27,11 +29,13 @@ const App = () => (
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/academic" element={<Academic />} />
+        <Route path="/misc" element={<Misc />} />
         <Route path="/projects/sbamp" element={<SBAMP />} />
         <Route path="/projects/cooptrack" element={<CoopTrack />} />
         <Route path="/projects/nerf" element={<NERF />} />
         <Route path="/projects/pick-place-robot-arm" element={<PickPlaceRobotArm />} />
         <Route path="/projects/transformer-diffusion-imitation" element={<TransformerDiffusionImmitation />} />
+        <Route path="/projects/remote-controlled-drone" element={<RemoteControlledDrone />} />
         <Route path="/stats" element={<Stats />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />

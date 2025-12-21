@@ -1,14 +1,20 @@
 // TODO Add a couple lines about each project
 const data = [
-  {
-    title: 'SBAMP: Sampling Based Adaptive Motion Planning',
-    subtitle: 'Sampling Based Adaptive Motion Planning',
-    link: '/projects/sbamp',
-    image: '/images/projects/sbamp/SBAMP.gif',
-    date: '2025-05-05',
-    desc:
-      'Developed SBAMP, a bi-level motion planning framework that combines RRT* for global path planning with an online SEDS-based controller for real-time local trajectory adaptation. The method avoids any offline training data by fitting stable dynamical systems on-the-fly and ensures global Lyapunov stability during disturbances and replanning. Implemented in ROS2 with CVXPY-based optimization, integrated with the F1/10 RoboRacer platform using real-time LIDAR-based perception and Ackermann control.',
-  },
+  // {
+  //   title: 'SBAMP: Sampling Based Adaptive Motion Planning',
+  //   subtitle: 'Sampling Based Adaptive Motion Planning',
+  //   link: '/projects/sbamp',
+  //   image: '/images/projects/sbamp/SBAMP.gif',
+  //   date: '2025-05-05',
+  //   desc:
+  //     'Developed SBAMP, a bi-level motion planning framework that combines RRT*
+  // for global path planning with an online SEDS-based controller for real-time
+  // local trajectory adaptation. The method avoids any offline training data by
+  // fitting stable dynamical systems on-the-fly and ensures global Lyapunov stability
+  // during disturbances and replanning. Implemented in ROS2 with CVXPY-based optimization,
+  // integrated with the F1/10 RoboRacer platform using real-time LIDAR-based perception and
+  // Ackermann control.',
+  // },
   {
     title: 'Enhanced Differentiable Multi-Sensor Kalman Filter for Cooperative 3D Tracking',
     subtitle: 'Enhanced DMSTrack',
@@ -44,6 +50,15 @@ const data = [
     date: '2024-12-22',
     desc:
       'This project implements a NeRF-based framework that represents a 3D scene in a compact way and render novel views given a number of 2D views of the same static scene. It integrates positional encoding, stratified sampling, and volumetric rendering.',
+  },
+  {
+    title: 'Building a remote-controlled drone from scratch',
+    subtitle: 'Environmental Monitoring Remote-Controlled Drone with Multi Sensor Integration',
+    link: '/projects/remote-controlled-drone',
+    image: '/images/projects/drone.png',
+    date: '2024-02-19',
+    desc:
+      'Designed and built a custom quadcopter drone from scratch for environmental data collection and autonomous flight research. The system integrates mechanical, electrical, communication, and control components including a laser-cut mica frame, BR2204 brushless motors, Mamba F405 MK2 flight controller, and multiple sensors (DHT22 for humidity, BMP280 for atmospheric pressure, GP2Y1010AU0F for air quality). Implemented PID control algorithms for stable flight and used Betaflight firmware for sensor calibration and motor configuration.',
   },
   {
     title: 'Face Verification with C++ & OpenCV',

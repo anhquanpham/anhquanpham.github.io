@@ -16,6 +16,8 @@ const degrees = [
     degree: 'Bachelor of Science (B.Sc.) in Electrical & Computer Engineering',
     link: 'https://vinuni.instructure.com/',
     year: 2025,
+    thesis: 'Design and Control of a Robotic End-Effector for Adaptive Surface Grinding',
+    thesisLink: 'https://doi.org/10.5281/zenodo.17596803',
   },
 ];
 

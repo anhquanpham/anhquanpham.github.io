@@ -3,33 +3,42 @@ import PropTypes from 'prop-types';
 
 import Course from './Courses/Course';
 
-const getRows = (courses) => courses
-  .sort((a, b) => {
-    let ret = 0;
-    // Sort universities in ascending order (A-Z)
-    if (a.university > b.university) ret = 1;
-    else if (a.university < b.university) ret = -1;
-    // Sort course numbers in descending order
-    else if (a.number > b.number) ret = -1;
-    else if (a.number < b.number) ret = 1;
-    return ret;
-  })
-  .map((course, idx) => (
-    <Course
-      data={course}
-      key={course.title}
-      last={idx === courses.length - 1}
-    />
-  ));
-const Courses = ({ data }) => (
-  <div className="courses">
-    <div className="link-to" id="courses" />
-    <div className="title">
-      <h3>Selected Courses</h3>
+const getRows = (courses) => courses.map((course) => (
+  <Course
+    data={course}
+    key={course.title}
+  />
+));
+
+const Courses = ({ data }) => {
+  const graduateCourses = data.filter((course) => course.level === 'graduate');
+  const undergraduateCourses = data.filter((course) => course.level === 'undergraduate');
+
+  return (
+    <div className="courses">
+      <div className="link-to" id="courses" />
+      <div className="title">
+        <h3>Selected Courses</h3>
+      </div>
+      {graduateCourses.length > 0 && (
+        <div className="course-section">
+          <h4 className="course-section-title">Graduate</h4>
+          <ul className="course-list">
+            {getRows(graduateCourses)}
+          </ul>
+        </div>
+      )}
+      {undergraduateCourses.length > 0 && (
+        <div className="course-section">
+          <h4 className="course-section-title">Undergraduate</h4>
+          <ul className="course-list">
+            {getRows(undergraduateCourses)}
+          </ul>
+        </div>
+      )}
     </div>
-    <ul className="course-list">{getRows(data)}</ul>
-  </div>
-);
+  );
+};
 
 Courses.propTypes = {
   data: PropTypes.arrayOf(
@@ -38,6 +47,7 @@ Courses.propTypes = {
       number: PropTypes.string,
       link: PropTypes.string,
       university: PropTypes.string,
+      level: PropTypes.string,
     }),
   ),
 };

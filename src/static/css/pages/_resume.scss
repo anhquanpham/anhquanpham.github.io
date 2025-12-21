@@ -50,8 +50,21 @@
     .title {
       text-align: center;
     }
+    .course-section {
+      margin-bottom: 2em;
+      .course-section-title {
+        font-size: 1em;
+        font-weight: 600;
+        margin-bottom: 0.5em;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+      }
+    }
     .course-list {
-      text-align: center;
+      text-align: left;
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
 
       h4 {
         white-space: nowrap;
@@ -80,6 +93,14 @@
       text-align: center;
     }
   }
+
+  .cv-section {
+    padding-top: 1.6em;
+    .title {
+      text-align: center;
+      margin-bottom: 2em;
+    }
+  }
 }
 
 .daterange {
@@ -103,29 +124,42 @@
     padding-top: 0.3em;
     margin-bottom: 1em;
   }
+
+  .thesis {
+    text-transform: none;
+    padding-top: 0.3em;
+    margin-bottom: 1em;
+  }
+}
+
+.courses .course-container {
+  display: block;
+  margin-bottom: 0.5em;
+  padding: 0.3em 0;
 }
 
 .courses .course-number {
   display: inline;
+  font-weight: 600;
+  margin-right: 0.5em;
 }
+
 .courses .course-name {
   display: inline;
   font-family: "Raleway", Helvetica, sans-serif;
-  font-size: 0.7em;
+  font-size: 0.9em;
   font-weight: 400;
-  letter-spacing: 0.25em;
-  line-height: 2.5;
-  margin-top: -1em;
-  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-transform: none;
 }
 
-.courses ul li {
-  display: inline;
+.courses .course-container a {
+  text-decoration: none;
+  color: inherit;
 }
 
-.course-dot {
-  display: inline;
-  // display: none;
+.courses .course-container a:hover {
+  text-decoration: underline;
 }
 
 @include breakpoint(small) {

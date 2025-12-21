@@ -7,7 +7,9 @@ At Penn, I work on several directions that reflect this vision:
 
 - Under the guidance of Professors [Eric Eaton](https://www.seas.upenn.edu/~eeaton/), [Jorge Méndez Méndez](https://jorge-a-mendez.github.io/), and [Dani S. Bassett](https://complexsystemsupenn.com/personal), I study compositional zero-shot data generation, where agents can tackle new tasks by recombining prior knowledge.
 
-- Supervised by Professors [Dinesh Jayaraman](https://www.seas.upenn.edu/~dineshj/) and [Osbert Bastani](https://obastani.github.io/), I develop LLM-guided reward design, conduct large-scale RL training for dexterous tool use with the Franka arm, and work on articulated simulation alignment with real-world physics.
+- Supervised by Professors [Dinesh Jayaraman](https://www.seas.upenn.edu/~dineshj/) and [Osbert Bastani](https://obastani.github.io/), I develop LLM-guided reward design, conduct large-scale RL training for dexterous tool use, and work on articulated simulation alignment with real-world physics.
+
+- Working under Professor [Kostas Daniilidis](https://www.cis.upenn.edu/~kostas/), I study uncertainty-driven residual reinforcement learning to efficiently correct pretrained manipulation policies.
 
 - I also learn a lot from the mentorship of [Marcel Hussing](https://marcelhussing.github.io/), who focuses on stable and reliable RL, and [Junyao Shi](https://junyaoshi.github.io/), who brings internet-scale data and foundation models into robotics. Their guidance reflects my vision of reliable and scalable Reinforcement Learning as the driver of continuous improvement and sim-to-real transfer, supported by developments in foundation models to leverage internet data for high-level world understanding.
 
@@ -25,25 +27,9 @@ Before Penn, I studied interpretable reinforcement learning at A*STAR Singapore 
 # Selected Awards
 - <b> Professional Advisor</b>, Mid-Atlantic Capital Conference, Philadelphia Alliance for Capital and Technologies (2024)
 - <b>Singapore International Pre-Graduate Award</b>, A*STAR Singapore (2024)
-- <b>Full scholarship</b>, Cornell University’s Entrepreneurship Immersion Program (2024)
+- <b>Full scholarship</b>, Cornell University's Entrepreneurship Immersion Program (2024)
 - <b>Champion of Asia Pacific region, Top 20 globally</b>, Huawei Tech4Good 2023 Startup Competition (2023)
 - <b>EXCEL Award for Entrepreneurial Mindset</b> (2022), <b>EXCEL Award for Leadership</b> (2023), VinUniversity
 - <b>Best Research Poster Award</b>, VinUni College of Engineering and Computer Science (CECS) Day 2023
 - <b>Dean's List</b>, VinUniversity (2021-2023)
-
-
-# Off the field
-I rarely have free time, but when I do, I enjoy reading about tech entrepreneurship 
-and analyzing football (soccer) tactics. I also love playing football and making music. 
-In college, I formed a band with my dorm mates, playing Pop, Rock, and Ballads. 
-I primarily play the drums, but I also occasionally pick up the guitar and sing as well. 
-[HERE](https://www.youtube.com/watch?v=373mu6j9DU0) was our debut performance back in summer 2023.
-<br>
-<br>
-In Vietnam, people typically refer to each other by their middle and first names, 
-so I prefer to be called "Quan" (first name) or "Anh Quan". 
-You can also call me "Bill", a nickname my family has used for me since I was born.
-<br>
-<br>
-In university (back when I was younger), I was quite an energetic kid. I founded the VinUni Football Community in Hanoi, which was the first and only intramural sports community at the school. I also served as the Vice President of Professional for VinUni Harmony, where I advised and managed numerous musical products, shows, and performances. Similarly, in high school, I established the Football Club at Ly Tu Trong High School for the Gifted (LTT FC), which is still active in Ho Chi Minh City and Can Tho. So, if you ever find yourself in Vietnam and want to experience some local soccer, just let me know. I'm part of active teams across the country!
 
