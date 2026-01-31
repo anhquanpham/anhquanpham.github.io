@@ -21,11 +21,22 @@ function formatAuthors(authors) {
           const isString = typeof author === 'string';
           const name = isString ? author : author.name;
           const link = isString ? null : author.link;
+          const equalContribution = !isString && author.equalContribution;
+          const coAdvisor = !isString && author.coAdvisor;
           const isBold = name === 'Anh-Quan Pham';
           const isLast = index === authors.length - 1;
           const key = `${name}-${index}`;
+          const nameDisplay = name.replace(/ /g, '\u00A0');
 
-          const authorElement = isBold ? <b>{name}</b> : <span>{name}</span>;
+          let suffix = null;
+          if (equalContribution) suffix = '§';
+          else if (coAdvisor) suffix = '†';
+          const authorElement = (
+            <>
+              {isBold ? <b>{nameDisplay}</b> : <span>{nameDisplay}</span>}
+              {suffix && <sup className="author-suffix">{suffix}</sup>}
+            </>
+          );
 
           if (link) {
             return (
@@ -162,6 +173,9 @@ const Academic = () => (
                 {/* Authors as subtitle style, bolded name */}
                 {project.authors && (
                   <div className="research-subtitle">{formatAuthors(project.authors)}</div>
+                )}
+                {project.authorNote && (
+                  <div className="research-author-note">{project.authorNote}</div>
                 )}
                 {/* Date as before */}
                 {project.date && <div className="research-date">{project.date}</div>}
