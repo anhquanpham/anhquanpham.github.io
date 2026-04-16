@@ -1,9 +1,10 @@
 const degrees = [
   {
-    school: 'General Robotics, Automation, Sensing, & Perception Lab - University of Pennsylvania',
+    school: 'GRASP (General Robotics, Automation, Sensing, & Perception) Lab - University of Pennsylvania',
     degree: 'Master of Science in Engineering (MSE) in Robotics',
     link: 'https://www.grasp.upenn.edu/',
     year: 2026,
+    thesis: 'Autonomous Interaction-Ready Object Modeling for Realistic & Scalable Robot Learning',
   },
   {
     school: 'Cornell SC Johnson College of Business- Cornell University',

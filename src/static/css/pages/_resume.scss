@@ -1,6 +1,20 @@
 /* Resume */
 
 #resume {
+  .education .title,
+  .cv-section .title,
+  .courses .title {
+    margin: 0 0 (_size(element-margin) * 0.5) 0;
+    padding-bottom: 0.5em;
+    border-bottom: solid 1px _palette(border);
+
+    h3 {
+      margin: 0;
+      padding: 0;
+      border: 0;
+    }
+  }
+
   .link-to {
     position: relative;
     top: -4.5em;
@@ -19,8 +33,7 @@
 
   .education {
     .title {
-      text-align: center;
-      margin-bottom: 2em;
+      text-align: left;
     }
   }
   .experience {
@@ -48,16 +61,19 @@
   .courses {
     padding-top: 1.6em;
     .title {
-      text-align: center;
+      text-align: left;
     }
     .course-section {
       margin-bottom: 2em;
       .course-section-title {
         font-size: 1em;
-        font-weight: 600;
+        font-weight: _font(weight-bold);
+        color: _palette(fg-bold);
+        line-height: 1.75;
+        letter-spacing: 0;
+        text-align: center;
         margin-bottom: 0.5em;
-        text-transform: uppercase;
-        letter-spacing: 0.1em;
+        text-transform: none;
       }
     }
     .course-list {
@@ -90,15 +106,14 @@
   .references {
     margin: 2em 0;
     .title {
-      text-align: center;
+      text-align: left;
     }
   }
 
   .cv-section {
     padding-top: 1.6em;
     .title {
-      text-align: center;
-      margin-bottom: 2em;
+      text-align: left;
     }
   }
 }
@@ -108,27 +123,38 @@
 }
 
 .degree-container {
-  h4 {
-    font-weight: normal;
-  }
-
   .degree {
     margin-bottom: 0.1em;
     text-transform: none;
-    letter-spacing: 0.16em;
-    font-size: 0.8em;
+    letter-spacing: 0;
+    font-size: 1em;
+    font-weight: _font(weight-bold);
+    color: _palette(fg-bold);
+    line-height: 1.75;
   }
 
   .school {
     text-transform: none;
     padding-top: 0.3em;
     margin-bottom: 1em;
+    font-family: _font(family);
+    font-size: 1em;
+    font-weight: _font(weight);
+    letter-spacing: 0;
+    color: _palette(fg);
+    line-height: 1.75;
   }
 
   .thesis {
     text-transform: none;
     padding-top: 0.3em;
     margin-bottom: 1em;
+    font-family: _font(family);
+    font-size: 1em;
+    font-weight: _font(weight);
+    letter-spacing: 0;
+    color: _palette(fg);
+    line-height: 1.75;
   }
 }
 
@@ -146,10 +172,12 @@
 
 .courses .course-name {
   display: inline;
-  font-family: "Raleway", Helvetica, sans-serif;
-  font-size: 0.9em;
-  font-weight: 400;
-  letter-spacing: 0.05em;
+  font-family: _font(family);
+  font-size: 1em;
+  font-weight: _font(weight);
+  letter-spacing: 0;
+  color: _palette(fg);
+  line-height: 1.75;
   text-transform: none;
 }
 

@@ -3,11 +3,11 @@ import 'katex/dist/katex.min.css';
 import Main from '../../layouts/Main';
 
 const RemoteControlledDrone = () => (
-  <Main title="Building a remote-controlled drone from scratch" description="Detailed description of the remote-controlled drone project.">
+  <Main title="Building a Remote-Controlled Drone from scratch" description="Detailed description of the remote-controlled drone project.">
     <article className="post" id="project-detail">
       <header>
         <div className="title">
-          <h2>Building a remote-controlled drone from scratch
+          <h2>Building a Remote-Controlled Drone from scratch
           </h2>
           <p>February 2024</p>
           <a href="https://doi.org/10.5281/zenodo.17599019" target="_blank" rel="noopener noreferrer">

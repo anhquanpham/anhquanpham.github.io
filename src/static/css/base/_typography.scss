@@ -118,6 +118,26 @@ h6 {
   font-size: 0.7em;
 }
 
+#misc.markdown h1 {
+  margin: 1.2cm 0 (_size(element-margin) * 0.5) 0;
+  padding-bottom: 0.5em;
+  border-bottom: solid 1px _palette(border);
+}
+
+#misc.markdown h1:first-of-type {
+  margin-top: 0;
+}
+
+#about.markdown h1 {
+  margin: 1.2cm 0 (_size(element-margin) * 0.5) 0;
+  padding-bottom: 0.5em;
+  border-bottom: solid 1px _palette(border);
+}
+
+#about.markdown h1:first-of-type {
+  margin-top: 0;
+}
+
 sub {
   font-size: 0.8em;
   position: relative;

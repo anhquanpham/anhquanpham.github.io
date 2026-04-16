@@ -1,6 +1,13 @@
 // Invited talks data for the Academic page
 const data = [
   {
+    title: 'How To Train Your Robots',
+    venue: 'Can Tho, Vietnam',
+    date: '2024-2025',
+    image: '/images/academic/talks/trainrobotstalk.jpg',
+    description: 'Speaker and organizer of a motivational talk series that reached 400 students across 20 local English classes, sharing lessons on resilience, self-learning, and purpose to help students turn passion into action despite limited educational resources in the Mekong Delta.',
+  },
+  {
     title: 'Beachhead Markets For Tech Startups',
     venue: 'Penn Robotics Entrepreneurs Club, University of Pennsylvania',
     date: 'November 2024',

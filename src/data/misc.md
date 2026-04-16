@@ -1,5 +1,5 @@
 # Books
-Outside of research, I enjoy reading about technology entrepreneurship and analyzing football (soccer) tactics. 
+Outside of robots, I enjoy reading about entrepreneurship and analyzing football (soccer) tactics. 
 
 A few books that have strongly influenced how I think about startups, leadership, and ambition include:
 
@@ -10,6 +10,9 @@ A few books that have strongly influenced how I think about startups, leadership
 - **Leading: Learning from Life and My Years at Manchester United** by Alex Ferguson — a book on leadership and team-building that was a birthday gift from my father when I was 12.
 
 I am currently reading **The Founder's Dilemmas: Anticipating and Avoiding the Pitfalls That Can Sink a Startup** by Noam Wasserman, following the recommendation of my IP Law professor, [Professor Joshua L. Cohen](https://www.law.upenn.edu/faculty/cohen15).
+
+
+
 
 
 # Music
@@ -57,7 +60,14 @@ I had the honor of serving as captain of the Electrical & Computer Engineering f
   <img src="/images/misc/cecs_football.png" alt="CECS Football Team" />
 </div>
 
-In my undergrad, I founded the VinUni Football Community in Hanoi, which was the first and only intramural sports community at the school. Similarly, in high school, I established the Football Club at Ly Tu Trong High School for the Gifted (LTT FC), which is still active in Ho Chi Minh City and Can Tho. So, if you ever find yourself in Vietnam and want to experience some local soccer, just let me know. I'm part of active teams across the country!
+In my undergrad, I founded the VinUni Football Community in Hanoi, which was the first and only intramural sports community at the school. Similarly, in high school, I established the Football Club at Ly Tu Trong High School for the Gifted (LTT FC), which is still active in Ho Chi Minh City and Can Tho. On the left is a photo from when we first started (2018), and on the right is us this year (2026). 
+
+<div style="display: flex; gap: 1em; margin: 2em 0; flex-wrap: wrap;">
+  <img src="/images/misc/lttfc_early.jpg" alt="LTT FC in 2018" style="flex: 1; min-width: 300px; width: 100%; height: auto;" />
+  <img src="/images/misc/lttfc.jpg" alt="LTT FC in 2026" style="flex: 1; min-width: 300px; width: 100%; height: auto;" />
+</div>
+
+So, if you ever find yourself in Vietnam and want to experience some local soccer, just let me know. I'm part of active teams across the country!
 
 # Taekwondo
 
@@ -72,5 +82,5 @@ Lastly, I am incredibly proud of my younger brother, [Anh-Tuan Pham](https://pat
 
 He was my dad’s favorite soccer player, his English scores were far superior to mine which made my English-teacher mom especially proud, my former teachers’ favorite student, and pretty much everyone’s favorite human in between. On top of that, he is a world-class chess player who has won numerous national medals, which is especially impressive considering I do not think I have played more than five chess games in my entire life.
 
-It has been my greatest honor to mentor him at every step of his journey, while quietly reflecting on what I could have achieved. Keep an eye on him, because I truly believe he is destined for great things. He is currently pursuing his undergraduate degree in Robotics and Machine Intelligence at the National University of Singapore, which is both inspiring and humbling, since I barely survived high school.
+It has been my greatest honor to mentor him at every step of his journey, while quietly reflecting on what I could have achieved. I truly believe he is destined for great things. He is currently pursuing his undergraduate degree in Robotics and Machine Intelligence at the National University of Singapore, which is both inspiring and humbling, since I barely survived high school.
 

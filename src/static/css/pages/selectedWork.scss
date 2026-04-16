@@ -3,6 +3,16 @@
 .selected-work {
   margin-bottom: _size(element-margin);
 
+  .selected-work__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1em;
+    margin: 0 0 (_size(element-margin) * 0.5) 0;
+    padding-bottom: 0.5em;
+    border-bottom: solid 1px _palette(border);
+  }
+
   h3 {
     // Match base h3 (typography.scss)
     font-size: 0.9em;
@@ -12,15 +22,27 @@
     color: _palette(fg-bold);
     text-transform: uppercase;
     line-height: 1.65;
-    margin: 0 0 (_size(element-margin) * 0.5) 0;
-    padding-bottom: 0.5em;
-    border-bottom: solid 1px _palette(border);
+    margin: 0;
+    padding-bottom: 0;
+    border-bottom: 0;
   }
 
   .selected-work__list {
     display: flex;
     flex-direction: column;
     gap: _size(element-margin);
+  }
+
+  .selected-work__legend {
+    margin: 0;
+    color: _palette(fg-bold);
+    font-family: _font(family);
+    font-size: 0.9em;
+    font-weight: _font(weight);
+    font-style: italic;
+    letter-spacing: 0;
+    line-height: 1.6;
+    text-transform: none;
   }
 
   .selected-work__item {
@@ -86,22 +108,46 @@
 
   .selected-work__actions {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 0.75em;
     margin-top: 0.5em;
     align-items: center;
+    width: 100%;
+    justify-content: flex-start;
 
-    a {
+    a,
+    .selected-work__action-btn {
       font-size: 1em;
       color: inherit;
       text-decoration: none;
       border-bottom: dotted 1px _palette(border-alt);
+      background: transparent;
+      border-top: 0;
+      border-left: 0;
+      border-right: 0;
+      padding: 0;
+      cursor: pointer;
+      letter-spacing: 0;
+      text-transform: none;
+      font-family: inherit;
+      -webkit-appearance: none;
+      appearance: none;
 
       &:hover {
         border-bottom-color: transparent;
         color: _palette(accent) !important;
       }
     }
+
+    .summary-btn {
+      font-weight: inherit;
+    }
+  }
+
+  .selected-work__summary {
+    color: _palette(fg);
+    margin-top: 0.6em;
+    line-height: 1.75;
   }
 
   .research-authors {
@@ -128,5 +174,26 @@
 
   .research-authors .research-authors-sep {
     color: _palette(fg);
+  }
+
+  @include breakpoint(medium) {
+    .selected-work__heading {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+}
+
+.news-updates {
+  .news-updates__heading {
+    margin: 0 0 (_size(element-margin) * 0.5) 0;
+    padding-bottom: 0.5em;
+    border-bottom: solid 1px _palette(border);
+
+    h3 {
+      margin: 0;
+      padding: 0;
+      border: 0;
+    }
   }
 }

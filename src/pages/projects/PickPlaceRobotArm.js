@@ -4,11 +4,11 @@ import 'katex/dist/katex.min.css';
 import Main from '../../layouts/Main';
 
 const PickPlaceRobotArm = () => (
-  <Main title="Pick & Place Robot Arm" description="Detailed description of the Pick & Place Robot Arm project.">
+  <Main title="Dynamic Block Stacking with 7-DOF Robot Arms" description="Detailed description of the Dynamic Block Stacking with 7-DOF Robot Arms project.">
     <article className="post" id="project-detail">
       <header>
         <div className="title">
-          <h2>Pick & Place Robot Arm</h2>
+          <h2>Dynamic Block Stacking with 7-DOF Robot Arms</h2>
           <p>December 2024</p>
           <a href="https://github.com/anhquanpham/7-dof-pick-place-robot-arm" target="_blank" rel="noopener noreferrer">
             <button

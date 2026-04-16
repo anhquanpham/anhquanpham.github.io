@@ -8,7 +8,7 @@ const NERF = () => (
     <article className="post" id="project-detail">
       <header>
         <div className="title">
-          <h2>3D scene reconstruction and novel view rendering with NeRF (Neural Radiance Fields)
+          <h2>3D Scene Reconstruction and Novel View Rendering with NeRF (Neural Radiance Fields)
           </h2>
           <p>December 2024</p>
           <a href="https://github.com/anhquanpham/nerf-novel-view-rendering" target="_blank" rel="noopener noreferrer">

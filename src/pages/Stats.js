@@ -19,6 +19,7 @@ const Stats = () => (
           </h2>
         </div>
       </header>
+      <h3>Some stats about me</h3>
       <Personal />
       <Site />
     </article>

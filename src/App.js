@@ -18,6 +18,8 @@ const CoopTrack = lazy(() => import('./pages/projects/CoopTrack'));
 const SBAMP = lazy(() => import('./pages/projects/SBAMP'));
 const TransformerDiffusionImmitation = lazy(() => import('./pages/projects/TransformerDiffusionImmitation'));
 const RemoteControlledDrone = lazy(() => import('./pages/projects/RemoteControlledDrone'));
+const AutomaticSolarTracker = lazy(() => import('./pages/projects/AutomaticSolarTracker'));
+const BuildAudioAmplifier = lazy(() => import('./pages/projects/BuildAudioAmplifier'));
 const Resume = lazy(() => import('./pages/Resume'));
 const Stats = lazy(() => import('./pages/Stats'));
 
@@ -36,6 +38,8 @@ const App = () => (
         <Route path="/projects/pick-place-robot-arm" element={<PickPlaceRobotArm />} />
         <Route path="/projects/transformer-diffusion-imitation" element={<TransformerDiffusionImmitation />} />
         <Route path="/projects/remote-controlled-drone" element={<RemoteControlledDrone />} />
+        <Route path="/projects/auto-solar-tracker" element={<AutomaticSolarTracker />} />
+        <Route path="/projects/build-audio-amplifier" element={<BuildAudioAmplifier />} />
         <Route path="/stats" element={<Stats />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
