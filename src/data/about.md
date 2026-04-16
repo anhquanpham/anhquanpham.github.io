@@ -1,6 +1,6 @@
 # Intro
 
-I enjoy thinking about problems in scalable robot learning and reinforcement learning, and I’m motivated to push the frontier of robotics intelligence by enabling robots to robustly adapt to unseen scenarios, efficiently leverage the use of diverse information sources, and reliably improve themselves over time. In the long term, I’m excited about a future where everyone can easily teach and their own robots continuously throughout their lifetime.
+I enjoy thinking about problems in scalable robot learning and reinforcement learning, and I’m motivated to push the frontier of robotics intelligence by enabling robots to robustly adapt to unseen scenarios, efficiently leverage the use of diverse information sources, and reliably improve themselves over time. In the long term, I’m excited about a future where everyone can easily teach their own robots continuously throughout their lifetime.
 <br>
 <br>
 At Penn, I work on several directions that reflect this vision:
