@@ -204,11 +204,11 @@ const Index = () => {
           <p>
             <strong>April 2026:</strong>{' '}
             <span style={{ color: '#ffb020' }}>
-              🚀 I&apos;m joining the AI Research team at{' '}
+              🚀 I&apos;ve decided to join the AI Research team at{' '}
               <a href="https://www.dyna.co/mission" target="_blank" rel="noopener noreferrer">
                 DYNA Robotics
               </a>
-              {' '}this June to build commercial-grade physical AGI. 🧠
+              {' '}in Silicon Valley, CA this June to build commercial-grade physical AGI. 🦾 🧠
             </span>
           </p>
           <p style={{ color: '#f2c94c' }}>
