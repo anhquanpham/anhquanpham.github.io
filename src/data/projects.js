@@ -33,21 +33,6 @@ const data = [
     descLink: 'https://youtube.com/shorts/ky_QH1Zoab4?feature=share',
     descSuffix: 'is one during development.',
   },
-  // {
-  //   title: 'SBAMP: Sampling Based Adaptive Motion Planning',
-  //   subtitle: 'Sampling Based Adaptive Motion Planning',
-  //   link: '/projects/sbamp',
-  //   image: '/images/projects/sbamp/SBAMP.gif',
-  //   date: '2025-05-05',
-  //   desc:
-  //     'Developed SBAMP, a bi-level motion planning framework that combines RRT*
-  // for global path planning with an online SEDS-based controller for real-time
-  // local trajectory adaptation. The method avoids any offline training data by
-  // fitting stable dynamical systems on-the-fly and ensures global Lyapunov stability
-  // during disturbances and replanning. Implemented in ROS2 with CVXPY-based optimization,
-  // integrated with the F1/10 RoboRacer platform using real-time LIDAR-based perception and
-  // Ackermann control.',
-  // },
   {
     title: 'Enhanced Differentiable Multi-Sensor Kalman Filter for Cooperative 3D Tracking',
     subtitle: 'Enhanced DMSTrack',

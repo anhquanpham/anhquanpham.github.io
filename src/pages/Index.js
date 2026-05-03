@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 import Main from '../layouts/Main';
 import researchData from '../data/research';
 
-// First research items for Selected Work (includes newest / upcoming work)
-const selectedWork = researchData.slice(0, 3);
+// Selected Work: entries in research.js with featured: true (order follows research.js)
+const selectedWork = researchData.filter((p) => p.featured);
 
 function formatAuthors(authors) {
   if (!authors || !Array.isArray(authors)) return null;
@@ -201,6 +201,32 @@ const Index = () => {
           <div className="news-updates__heading">
             <h3>News & Updates</h3>
           </div>
+          <p>
+            <strong>April 2026:</strong>{' '}
+            <span style={{ color: '#ffb020' }}>
+              🚀 I&apos;m joining the AI Research team at{' '}
+              <a href="https://www.dyna.co/mission" target="_blank" rel="noopener noreferrer">
+                DYNA Robotics
+              </a>
+              {' '}this June to build commercial-grade physical AGI. 🧠
+            </span>
+          </p>
+          <p style={{ color: '#f2c94c' }}>
+            <strong>April 2026:</strong> 🎉 Excited to share that{' '}
+            <a href="https://doi.org/10.48550/arXiv.2511.12022" target="_blank" rel="noopener noreferrer">
+              SBAMP: Sampling-Based Adaptive Motion Planning
+            </a>
+            {' '}has been accepted to the{' '}
+            <a
+              href="https://sites.google.com/robotics.utias.utoronto.ca/icra26-frontiers-optimization"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Workshop on Frontiers of Optimization for Robotics (2nd Edition)
+            </a>
+            {' '}at ICRA 2026! 🤖 This marks my first project in a research leadership role (last author).
+            Grateful for the team that made this possible. 🦾
+          </p>
           <p style={{ color: '#f2c94c' }}>
             <strong>April 2026:</strong> 🎉 Exciting news: {' '}
             <a href="https://arxiv.org/pdf/2512.10891" target="_blank" rel="noopener noreferrer">
@@ -210,7 +236,7 @@ const Index = () => {
             <a href="https://jmlr.org/tmlr/" target="_blank" rel="noopener noreferrer">
               Transactions on Machine Learning Research (TMLR)
             </a>
-            ! 🚀 Really grateful to the TMLR reviewers and action editor for their sharp, constructive feedback. 🙌 Check out our{' '}
+            ! Really grateful to the TMLR reviewers and action editor for their sharp, constructive feedback. 🙌 Check out our{' '}
             <a href="https://anhquanpham.github.io/iterative-comp-rl-generation/" target="_blank" rel="noopener noreferrer">
               project website
             </a>

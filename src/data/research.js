@@ -1,6 +1,7 @@
 // Research projects data for the Academic page
 const data = [
   {
+    featured: true,
     title: 'Iterative Compositional Data Generation for Robot Control',
     authors: [
       { name: 'Anh-Quan Pham' },
@@ -24,6 +25,7 @@ const data = [
       'We leverage compositional structure in robotic manipulation to iteratively generate expert data for unseen task combinations via conditional diffusion. A semantic compositional diffusion transformer factorizes task components and self-improves through offline RL validation, enabling strong zero-shot data generation to solve new tasks without collecting new real data. ',
   },
   {
+    featured: true,
     title: 'Closing the Asset-to-Simulation Gap for Articulated Objects via Multi-Modal Physical Refinement',
     authors: [
       { name: 'Anh-Quan Pham', equalContribution: true },
@@ -43,30 +45,31 @@ const data = [
       'We present a lightweight, VLM-guided method that converts kinematic articulated 3D objects into physically realistic models for robot learning in under one minute, and can be run in parallel to refine thousands of assets at the same time. The method refines physical properties using multi-view visual inputs and simulator-in-the-loop feedback, and evaluates interaction-readiness through simulation stability, human-object interaction (teleoperation), visual physics realism, and downstream performance with independently trained vision-language-action (VLA) policies, enabling scalable, low-effort asset generation.',
   },
   {
+    featured: true,
     title:
       'Zero-Shot In-Context Learning for Vision-Language-Action (VLA) Models',
     authors: [{ name: 'Anh-Quan Pham', equalContribution: true }],
     authorNote:
-      '§ With additional co-first authors (names forthcoming).',
+      '§ With additional co-authors (names forthcoming).',
     image: '/images/academic/research/rag-vla.gif',
     date: 'Upcoming submission, May 2026',
     desc:
       'We introduce a retrieval-augmented, training-free framework that enables in-context learning for general-purpose robot manipulation, addressing the lack of test-time adaptation mechanisms from minimal context in pretrained vision-language-action (VLA) policies. Our method queries semantically relevant trajectories from large, heterogeneous datasets, warps these as "in-context information" to the target domain, and uses them to guide action generation during policy execution. This enables zero-shot adaptation to novel tasks and out-of-distribution configurations without retraining, leveraging motor primitives already encoded in pretrained policies.',
   },
   {
+    featured: true,
     title: 'SBAMP: Sampling Based Adaptive Motion Planning',
     authors: [
       { name: 'Shreyas Raorane', link: 'https://www.linkedin.com/in/shreyas-raorane/', equalContribution: true },
       { name: 'Kabir Ram Puri', link: 'https://www.linkedin.com/in/kabir-puri-2633281b1/', equalContribution: true },
       { name: 'Anh-Quan Pham', projectLead: true },
     ],
-    date: 'Under Review',
+    date: 'Workshop on Frontiers of Optimization for Robotics, International Conference on Robotics and Automation (ICRA), 2026',
     arxiv: 'https://doi.org/10.48550/arXiv.2511.12022',
     code: 'https://github.com/anhquanpham/SBAMP',
     video: 'https://www.youtube.com/watch?v=mtq3qeJFjX0',
     image: '/images/academic/research/SBAMP.gif',
     pdf: 'https://arxiv.org/pdf/2511.12022',
-    // award: 'Best Research Poster Award, VinUniversity CECS Day 2023',
     desc: 'SBAMP combines RRT* for global path planning with an online SEDS-based controller for real-time local trajectory adaptation. The method avoids any offline training data by fitting stable dynamical systems on-the-fly and ensures global Lyapunov stability during disturbances and replanning.',
   },
 

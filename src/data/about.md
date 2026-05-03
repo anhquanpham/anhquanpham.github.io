@@ -34,7 +34,6 @@ Before Penn, I studied interpretable reinforcement learning at A*STAR Singapore 
 - <b>Co-Founder, led fundraising</b> for agri-fintech startup TinFam, won <b>Most Favorite Team</b>, TechYouth Incubator (2022)
 
 # Selected Services
-- <b>Board Member</b>, Industry Advisory Board, College of Engineering & Computer Science, VinUniversity (2026)
 - <b>President</b>, Penn Robotics Entrepreneurs Club, University of Pennsylvania (2025-2026)
 - <b>Academic Journal Reviewer</b>, IEEE Transactions on Automation Science and Engineering (T-ASE) (2026)
 - <b>Teaching Assistant</b>, CIS 580 Machine Perception (3D Vision - Graduate Level), University of Pennsylvania (2025)
