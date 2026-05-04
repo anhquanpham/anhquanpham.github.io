@@ -110,7 +110,7 @@ const Academic = () => {
           <div className="research-heading">
             <h3>Research</h3>
             <p className="research-legend">
-              § Equal contribution (unless noted). † Equal advising. ‡ Project lead.
+              § Equal contribution (unless noted). † Equal advising. ‡ Research project lead.
             </p>
           </div>
           <div className="research-container">

@@ -114,7 +114,7 @@ const Index = () => {
           <div className="selected-work__heading">
             <h3>Selected Work</h3>
             <p className="selected-work__legend">
-              § Equal contribution (unless noted). † Equal advising. ‡ Project lead.
+              § Equal contribution (unless noted). † Equal advising. ‡ Research project lead.
             </p>
           </div>
           <div className="selected-work__list">
@@ -208,7 +208,7 @@ const Index = () => {
               <a href="https://www.dyna.co/mission" target="_blank" rel="noopener noreferrer">
                 DYNA Robotics
               </a>
-              {' '}in Silicon Valley, CA this June to build commercial-grade physical AGI. 🦾 🧠
+              {' '}in Silicon Valley this June to build commercial-grade physical AGI. 🦾 🧠
             </span>
           </p>
           <p style={{ color: '#f2c94c' }}>
