@@ -26,7 +26,7 @@ const data = [
   },
   {
     featured: true,
-    title: 'Closing the Asset-to-Simulation Gap for Articulated Objects via Multi-Modal Physical Refinement',
+    title: 'ASSET2SIM: Automatically Improving Simulation Physics for Articulated Objects',
     authors: [
       { name: 'Anh-Quan Pham', equalContribution: true },
       { name: 'Sagnik Anupam', link: 'https://sagnikanupam.com', equalContribution: true },
@@ -47,14 +47,16 @@ const data = [
   {
     featured: true,
     title:
-      'Zero-Shot In-Context Learning for Vision-Language-Action (VLA) Models',
-    authors: [{ name: 'Anh-Quan Pham', equalContribution: true }],
-    authorNote:
-      '§ With additional co-authors (names forthcoming).',
+      'Zero-Shot VLA (Vision-Language-Action model) Adaptation with Retrieved Guidance',
+    authors: [
+      { name: 'Subin Kim', link: 'https://ksb21st.github.io/' },
+      { name: 'Anh-Quan Pham' },
+      { name: 'Dinesh Jayaraman', link: 'https://www.seas.upenn.edu/~dineshj/' },
+    ],
     image: '/images/academic/research/rag-vla.gif',
-    date: 'Upcoming submission, May 2026',
+    date: 'Under Review',
     desc:
-      'We introduce a retrieval-augmented, training-free framework that enables in-context learning for general-purpose robot manipulation, addressing the lack of test-time adaptation mechanisms from minimal context in pretrained vision-language-action (VLA) policies. Our method queries semantically relevant trajectories from large, heterogeneous datasets, warps these as "in-context information" to the target domain, and uses them to guide action generation during policy execution. This enables zero-shot adaptation to novel tasks and out-of-distribution configurations without retraining, leveraging motor primitives already encoded in pretrained policies.',
+      'We introduce Retrieval-Augmented Guidance (RAGu), a training-free framework for in-context learning in robot foundation models. Rather than adapting through gradient updates, RAGu enables pretrained Vision-Language-Action policies to acquire task-specific knowledge at inference time by retrieving relevant manipulation experiences from large, heterogeneous robot datasets. Retrieved trajectories are warped across differences in viewpoint, scene geometry, object configurations, and robot embodiments, then transformed into guidance signals that directly influence policy generation. This allows frozen VLAs to exploit demonstrations originating from entirely different domains, including real-to-sim, sim-to-real, and cross-embodiment transfer. By combining retrieval, geometric correspondence, and inference-time control, RAGu extends the effective experience of a robot far beyond its training distribution, enabling robust zero-shot in-context adaptation without modifying model parameters.',
   },
   {
     featured: true,
@@ -66,6 +68,8 @@ const data = [
     ],
     date: 'Workshop on Frontiers of Optimization for Robotics, International Conference on Robotics and Automation (ICRA), 2026',
     arxiv: 'https://doi.org/10.48550/arXiv.2511.12022',
+    journal: 'https://sites.google.com/robotics.utias.utoronto.ca/icra26-frontiers-optimization/accepted-contributions',
+    openreview: 'https://openreview.net/forum?id=7CiuqF99ue',
     code: 'https://github.com/anhquanpham/SBAMP',
     video: 'https://www.youtube.com/watch?v=mtq3qeJFjX0',
     image: '/images/academic/research/SBAMP.gif',

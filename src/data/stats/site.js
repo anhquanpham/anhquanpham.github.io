@@ -5,17 +5,10 @@ import timezone from 'dayjs/plugin/timezone';
 dayjs.extend(utc);
 dayjs.extend(timezone);
 
-// Get the user's local time zone
-const userTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-
 const data = [
   {
-    label: 'Quan\'s current local time (Philadelphia, PA)',
-    value: dayjs().tz('America/New_York').format('MMMM DD, YYYY, HH:mm'), // 24-hour format
-  },
-  {
-    label: 'Current local time at viewer\'s location',
-    value: dayjs().tz(userTimeZone).format('MMMM DD, YYYY, HH:mm'), // User's local time in 24-hour format
+    label: 'Quan\'s current local time (Redwood City, CA)',
+    value: dayjs().tz('America/Los_Angeles').format('MMMM DD, YYYY, HH:mm'), // 24-hour format
   },
   {
     label: 'Current time in Vietnam',

@@ -40,7 +40,7 @@ const work = [
   // },
   {
     name: 'Institute for Infocomm Research (I²R)',
-    position: 'Research Intern',
+    position: 'Researcher',
     url: 'https://www.a-star.edu.sg/i2r',
     startDate: '2024-03-04',
     endDate: '2024-07-31',

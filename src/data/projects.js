@@ -28,7 +28,7 @@ const data = [
     image: '/images/projects/AI_talking_robot.gif',
     date: '2026-01-16',
     descPrefix:
-      'A conversational robot combined with animatronic eyes and an LCD mouth. I grew up helping my mom, who teaches English to kids, by speaking with her students so they could practice their conversational skills and pronunciation. Now that both my brother and I are away (I am at Penn in Philadelphia and he is at NUS in Singapore, both studying robotics intelligence), we built this robot to keep those conversations going :) He\'s a shy kid, and I haven\'t visited home for a while so no flashy demos, but',
+      'A conversational robot combined with animatronic eyes and an LCD mouth. I grew up helping my mom, who teaches English to kids, by speaking with her students so they could practice their conversational skills and pronunciation. Now that both my brother and I are away (I am in Redwood City and he is at NUS in Singapore, both working on robotics intelligence), we built this robot to keep those conversations going :) He\'s a shy kid, and I haven\'t visited home for a while so no flashy demos, but',
     descLinkText: 'HERE',
     descLink: 'https://youtube.com/shorts/ky_QH1Zoab4?feature=share',
     descSuffix: 'is one during development.',

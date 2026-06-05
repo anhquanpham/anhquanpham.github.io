@@ -64,8 +64,8 @@ const Index = () => {
   return (
     <Main
       description={
-        "Anh-Quan (Bill) Pham's personal website. MS Robotics at the University of Pennsylvania (UPenn)."
-        + 'Email: phamanhquanbill@gmail.com'
+        "Anh-Quan (Bill) Pham's personal website. AI researcher at Dyna Robotics working on commercial-grade robotics foundation models."
+        + ' Email: phamanhquanbill@gmail.com'
       }
     >
       <article className="post" id="index">
@@ -80,32 +80,31 @@ const Index = () => {
           </div>
         </header>
         <p>
-          {' '}
-          Welcome to my website. Please feel free to read more{' '}
-          <Link to="/about">about me</Link>, or you can check out my{' '}
-          <Link to="/resume">CV</Link>, <Link to="/projects">projects</Link>, or{' '}
-          <Link to="/contact">contact</Link> me.
-        </p>
-        <p>
-          I am a final-year master&apos;s student in Robotics at the{' '}
-          <a href="https://www.grasp.upenn.edu/" target="_blank" rel="noopener noreferrer">GRASP Lab, University of Pennsylvania</a>. I am also currently the President of the Penn Robotics Entrepreneurs Club (PREC).
+          I am an AI researcher at{' '}
+          <a href="https://www.dyna.co/mission" target="_blank" rel="noopener noreferrer">Dyna Robotics</a>, where I work on commercial-grade robotics foundation models. I enjoy thinking about how scalable robot learning, reinforcement learning, and foundation models can create reliable, general-purpose manipulation robots in the real world.
           <br /><br />
-          I enjoy thinking about problems in scalable robot learning and reinforcement learning. I am fortunate to be advised by Professors{' '}
+          I did my graduate degree in robotics at the{' '}
+          <a href="https://www.grasp.upenn.edu/" target="_blank" rel="noopener noreferrer">GRASP Lab, University of Pennsylvania</a>. There, I was fortunate to be advised by Professors{' '}
           <a href="https://www.seas.upenn.edu/~dineshj/" target="_blank" rel="noopener noreferrer">Dinesh{'\u00A0'}Jayaraman</a>,{' '}
           <a href="https://www.seas.upenn.edu/~eeaton/" target="_blank" rel="noopener noreferrer">Eric{'\u00A0'}Eaton</a>, and{' '}
           <a href="https://www.cis.upenn.edu/~kostas/" target="_blank" rel="noopener noreferrer">Kostas{'\u00A0'}Daniilidis</a>, and to collaborate closely with Professors{' '}
           <a href="https://jorge-a-mendez.github.io/" target="_blank" rel="noopener noreferrer">Jorge{'\u00A0'}Méndez{'\u2011'}Méndez</a>,{' '}
           <a href="https://complexsystemsupenn.com/personal" target="_blank" rel="noopener noreferrer">Dani{'\u00A0'}S.{'\u00A0'}Bassett</a>, and{' '}
-          <a href="https://obastani.github.io/" target="_blank" rel="noopener noreferrer">Osbert{'\u00A0'}Bastani</a>. I am incredibly grateful to be mentored by{' '}
+          <a href="https://obastani.github.io/" target="_blank" rel="noopener noreferrer">Osbert{'\u00A0'}Bastani</a>. I am incredibly grateful to have been mentored by{' '}
           <a href="https://marcelhussing.github.io/" target="_blank" rel="noopener noreferrer">Marcel{'\u00A0'}Hussing</a>
           {' '}in reinforcement learning, and by{' '}
           <a href="https://junyaoshi.github.io/" target="_blank" rel="noopener noreferrer">Junyao{'\u00A0'}Shi</a>
           {' '}and{' '}
           <a href="https://ksb21st.github.io/" target="_blank" rel="noopener noreferrer">Subin{'\u00A0'}Kim</a>
-          {' '}in robot learning in my day-to-day research.
+          {' '}in robot learning.
           <br /><br />
-          Before that, I studied interpretable reinforcement learning at the{' '}
-          <a href="https://www.a-star.edu.sg/i2r" target="_blank" rel="noopener noreferrer">A*STAR Institute{'\u00A0'}for{'\u00A0'}Infocomm{'\u00A0'}Research{'\u00A0'}</a> Singapore under{' '}
+          During my time at Penn, I served as President of the Penn Robotics
+          {' '}Entrepreneurs Club (PREC), connecting aspiring founders and researchers
+          {' '}with industry leaders and top investors across the US, Europe, and Asia,
+          {' '}turning bold ideas into real ventures.
+          <br /><br />
+          Before Penn, I was a researcher at the{' '}
+          <a href="https://www.a-star.edu.sg/i2r" target="_blank" rel="noopener noreferrer">Institute{'\u00A0'}for{'\u00A0'}Infocomm{'\u00A0'}Research,{'\u00A0'}A*STAR{'\u00A0'}Singapore</a>, studying interpretable reinforcement learning under{' '}
           <a href="https://sites.google.com/site/jsenthilnath/" target="_blank" rel="noopener noreferrer">Dr. Senthilnath Jayavelu</a>. During my 2.5 years of undergrad at{' '}
           <a href="https://vinuni.edu.vn/" target="_blank" rel="noopener noreferrer">VinUniversity</a>, I applied RL to next-generation telecommunication networks under Professor{' '}
           <a href="https://www.tcd.ie/scss/people/academic-staff/nguyenva/" target="_blank" rel="noopener noreferrer">Van{'\u2011'}Dinh{'\u00A0'}Nguyen</a>, exploring resource allocation and network slicing.

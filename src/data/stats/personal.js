@@ -33,7 +33,7 @@ const data = [
   {
     key: 'location',
     label: 'Current city',
-    value: 'Philadelphia, Pennsylvania, US',
+    value: 'Redwood City, California, US',
   },
 ];
 

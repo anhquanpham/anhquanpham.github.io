@@ -4,7 +4,8 @@ const degrees = [
     degree: 'Master of Science in Engineering (MSE) in Robotics',
     link: 'https://www.grasp.upenn.edu/',
     year: 2026,
-    thesis: 'Automatically Improving Simulation Physics of Articulated Objects',
+    thesis: 'Automatically Improving Simulation Physics for Articulated Objects',
+    thesisLink: 'https://arxiv.org/pdf/2605.19136',
   },
   {
     school: 'Cornell SC Johnson College of Business- Cornell University',

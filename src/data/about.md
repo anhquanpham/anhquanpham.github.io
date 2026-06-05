@@ -1,19 +1,19 @@
 # Intro
 
-I enjoy thinking about problems in scalable robot learning and reinforcement learning, and I’m motivated to push the frontier of robotics intelligence by enabling robots to robustly adapt to unseen scenarios, efficiently leverage the use of diverse information sources, and reliably improve themselves over time. In the long term, I’m excited about a future where everyone can easily teach their own robots continuously throughout their lifetime.
+I am an AI researcher at [Dyna Robotics](https://www.dyna.co/mission), where I work on commercial-grade robotics foundation models. I enjoy thinking about how scalable robot learning, reinforcement learning, and foundation models can create reliable, general-purpose manipulation robots in the real world. In the long term, I’m excited about a future where everyone can easily teach their own robots continuously throughout their lifetime.
 <br>
 <br>
-At Penn, I work on several directions that reflect this vision:
+I did my graduate degree in robotics at the [GRASP Lab, University of Pennsylvania](https://www.grasp.upenn.edu/). At Penn, I worked on several directions that reflect this vision:
 
-- Under the guidance of Professors [Eric Eaton](https://www.seas.upenn.edu/~eeaton/), [Jorge Méndez Méndez](https://jorge-a-mendez.github.io/), and [Dani S. Bassett](https://complexsystemsupenn.com/personal), I study compositional zero-shot data generation, where agents can tackle new tasks by recombining prior knowledge.
+- Under the guidance of Professors [Eric Eaton](https://www.seas.upenn.edu/~eeaton/), [Jorge Méndez Méndez](https://jorge-a-mendez.github.io/), and [Dani S. Bassett](https://complexsystemsupenn.com/personal), I studied compositional zero-shot data generation, where agents can tackle new tasks by recombining prior knowledge.
 
-- Supervised by Professors [Dinesh Jayaraman](https://www.seas.upenn.edu/~dineshj/) and [Osbert Bastani](https://obastani.github.io/), I develop LLM-guided reward design, conduct large-scale RL training for dexterous tool use, and work on articulated simulation alignment with real-world physics.
+- Supervised by Professors [Dinesh Jayaraman](https://www.seas.upenn.edu/~dineshj/) and [Osbert Bastani](https://obastani.github.io/), I developed LLM-guided reward design, conducted large-scale RL training for dexterous tool use, and worked on articulated simulation alignment with real-world physics.
 
-- Working under Professor [Kostas Daniilidis](https://www.cis.upenn.edu/~kostas/), I study uncertainty-driven residual reinforcement learning to efficiently correct pretrained manipulation policies.
+- Working under Professor [Kostas Daniilidis](https://www.cis.upenn.edu/~kostas/), I studied uncertainty-driven residual reinforcement learning to efficiently correct pretrained manipulation policies.
 
-- I also learn a lot from [Marcel Hussing](https://marcelhussing.github.io/), who focuses on reliable RL, [Junyao Shi](https://junyaoshi.github.io/), who brings internet-scale data knowledge into robotics, and [Subin Kim](https://ksb21st.github.io/), who I extensively collaborate with on general-purpose manipulation.
+- I also learned a lot from [Marcel Hussing](https://marcelhussing.github.io/), who focuses on reliable RL, [Junyao Shi](https://junyaoshi.github.io/), who brings internet-scale data knowledge into robotics, and [Subin Kim](https://ksb21st.github.io/), who I extensively collaborated with on general-purpose manipulation.
 
-Before Penn, I studied interpretable reinforcement learning at A*STAR Singapore under [Dr. Senthilnath Jayavelu](https://sites.google.com/site/jsenthilnath/), focusing on symbolic policies and latent representations to improve transparency in decision-making. As an undergraduate at [VinUniversity](https://vinuni.edu.vn/) with Professor [Van-Dinh Nguyen](https://vinuni.edu.vn/people/nguyen-van-dinh-phd/), I applied RL to next-generation telecommunication networks, exploring resource allocation and network slicing, and completed my thesis on adaptive robotic parameter optimization using RL. As an engineering lead intern at Huawei Vietnam, I applied machine learning to IoT systems, leading a project on sleep-stage classification and representing Vietnam at the Asia-Pacific Seeds for the Future Summit.
+Before Penn, I was a researcher at the [Institute for Infocomm Research, A*STAR Singapore](https://www.a-star.edu.sg/i2r) under [Dr. Senthilnath Jayavelu](https://sites.google.com/site/jsenthilnath/), focusing on interpretable reinforcement learning, symbolic policies, and latent representations to improve transparency in decision-making. As an undergraduate at [VinUniversity](https://vinuni.edu.vn/) with Professor [Van-Dinh Nguyen](https://vinuni.edu.vn/people/nguyen-van-dinh-phd/), I applied RL to next-generation telecommunication networks, exploring resource allocation and network slicing, and completed my thesis on adaptive robotic parameter optimization using RL. As an engineering lead intern at Huawei Vietnam, I applied machine learning to IoT systems, leading a project on sleep-stage classification and representing Vietnam at the Asia-Pacific Seeds for the Future Summit.
 
 
 # Selected Media coverage
@@ -42,4 +42,3 @@ Before Penn, I studied interpretable reinforcement learning at A*STAR Singapore 
 - <b>Founder</b>, VinUni Football Community, first recreational sports initiative at VinUniversity (2022-2024)
 - <b>Vice President of Professional (Drummer, Guitarist & Vocalist)</b>, VinUni Harmony, VinUniversity (2022-2023)
 - <b>English Teacher</b>, "English for Children at Cai Rang Floating Market", Can Tho, Vietnam (2019)
-
